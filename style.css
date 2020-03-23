@@ -1,0 +1,138 @@
+body{
+  background-color: White;
+  color: White;
+  margin-top:1em;
+
+}
+
+.hometext{
+  margin-left: 2em;
+  color:white;
+  font-family: serif;
+  text-align: center;
+  display: flex;
+}
+
+h4{
+  font-style: italic;
+  color:gray;
+  text-indent: 10px;
+}
+
+
+.maintext{
+  margin-right: 20em;
+  margin-left: 4em;
+  color:white;
+  text-indent: 20px;
+  font-family:cursive;
+  font-size: 110%;
+}
+
+.secondtext{
+  margin-right: 30em;
+  margin-left: 4em;
+  color:white;
+  text-indent: 20px;
+  font-family:cursive;
+  font-size: 110%;
+
+}
+
+.secondtext strong{
+  color:black;
+  -webkit-text-stroke: 1px red;
+}
+
+
+.picture{
+  display:flex;
+}
+
+.gameimage{
+  width:400px;
+  height:230px;
+  border-radius:1px;
+  margin-top: 0.5em;
+}
+
+.gameimageleft{
+  width:400px;
+  height:230px;
+  border-radius:1px;
+  margin-top: 0.7em;
+  margin-left: -0.7em;
+}
+
+.SorryNeedToMoveRight{
+  margin-left:2em;
+}
+
+.Biography{
+  margin-right: 20em;
+  margin-left: 4em;
+  color:white;
+}
+
+
+a{
+  color: White;
+}
+
+h3 strong{
+  color: White;
+}
+
+.LogoImage img{
+  width: 70px;
+  height: 70px;
+}
+
+.menu{
+  display:flex;
+  margin-left:1em;
+  margin-top:1em;
+}
+
+
+.slideshow-container {
+  position:absolute;
+  top: 27%;
+  right: 5%;
+  max-width: 180px;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+.btn {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 3em;
+  margin-left: 4em;
+}
+
+.btn:hover {
+  background-color: Red;
+  margin-top: 3em;
+  margin-left: 4em;
+}
+
+::-webkit-scrollbar{
+  width: 7px;
+  background-color: Black;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 7px;
+  background-color: DarkRed;
+}
+::-webkit-scrollbar-track{
+  border-radius: 7px;
+  background-color: Black;
+}
